@@ -2,6 +2,8 @@
 
 ![APM](https://img.shields.io/badge/license-MIT-green)
 
+[![NPM](https://nodei.co/npm/uni-mock.png)](https://nodei.co/npm/uni-mock/)
+
 > data mock service for developer
 
 ## Installation

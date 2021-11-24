@@ -30,6 +30,10 @@
   ],
   "author": "gortin",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:gortin-x/uni-mock.git"
+  },
   "files": [
     "index.js",
     "lib"
