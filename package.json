@@ -24,9 +24,12 @@
     "build": "rollup --config ./config/rollup.config.build.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "node",
+    "javascript"
+  ],
+  "author": "gortin",
+  "license": "MIT",
   "files": [
     "index.js",
     "lib"

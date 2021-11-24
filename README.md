@@ -1,5 +1,7 @@
 # uni-mock
 
+![APM](https://img.shields.io/badge/license-MIT-green)
+
 > data mock service for developer
 
 ## Installation
