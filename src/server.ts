@@ -35,7 +35,7 @@ export default function initServer(config) {
             let _originParams = formatedUrl["params"]
             
             let body = "",
-                url = path.join(config["path"], _originUrl.split(config['suffix'])[1]);
+                url = path.join(config["path"], config['suffix'] === "/" ? _originUrl : _originUrl.split(config['suffix'])[1]);
 
             req.on("data", chunk => {
                 body += chunk;

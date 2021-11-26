@@ -1,14 +1,15 @@
 {
   "name": "uni-mock",
-  "version": "2.1.0",
+  "version": "2.1.3",
   "description": "",
   "main": "./lib/uni-mock-bundle.cjs.js",
   "bin": {
     "uni-mock": "./lib/uni-mock-bundle.cjs.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@types/chalk": "^2.2.0"
+  },
   "devDependencies": {
-    "@types/chalk": "^2.2.0",
     "@types/jest": "^27.0.3",
     "@types/node": "^16.11.9",
     "jest": "^27.3.1",
